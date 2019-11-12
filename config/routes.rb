@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :categories
   resources :users
   resources :reasons
 
@@ -9,6 +10,7 @@ Rails.application.routes.draw do
 end
 
 #   Rails.application.routes.draw do
+  resources :categories
 #   resources :users, param: :_username
 
 # end
