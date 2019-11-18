@@ -17,7 +17,7 @@ class UsersController < ApplicationController
   # POST /users
   def create
     puts "============="
-    puts user_params
+    puts user_params["teste1234"]
     puts "============="
     @user = User.new(user_params)
 
